@@ -12,13 +12,11 @@ ng serve
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-## Code scaffolding
+## 🌟 Features
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
+🔍 Search Weather Stations:
+Type a location or station name to zoom in on the corresponding weather station.
+![Screenshot 2024-12-03 at 6 16 48 PM](https://github.com/user-attachments/assets/5750a4b5-50f7-4c1d-a70f-026783dc96de)
 
 For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
 

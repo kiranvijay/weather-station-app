@@ -8,6 +8,7 @@ import { Observable } from 'rxjs';
 export class WeatherService {
   private weatherAPI = 'https://api.data.gov.sg/v1/environment/2-hour-weather-forecast';
   private forecastAPI = 'https://api.open-meteo.com/v1/forecast';
+  private forcaseApiConfig = '?latitude=1.29&longitude=103.85&hourly=relativehumidity_2m,direct_radiation&daily=temperature_2m_max,temperature_2m_min&timezone=Asia/Singapore&start_date=2024-11-01&end_date=2024-11-10'
 
   constructor(private http: HttpClient) {}
 
@@ -15,8 +16,8 @@ export class WeatherService {
     return this.http.get(this.weatherAPI);
   }
 
-  getForecast(lat: number, lon: number): Observable<any> {
-    const url = `${this.forecastAPI}?latitude=${lat}&longitude=${lon}&hourly=relativehumidity_2m,direct_radiation&daily=temperature_2m_max,temperature_2m_min&timezone=Asia%2FSingapore`;
+  getForecast(): Observable<any> {
+    const url = `${this.forecastAPI}${this.forcaseApiConfig}`;
     return this.http.get(url);
   }
 }

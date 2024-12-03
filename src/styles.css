@@ -1,1 +1,63 @@
-/* You can add global styles to this file, and also import other style files */
+/* CSS for LeafLEt container*/
+.leaflet-container .leaflet-control-search {
+  position: absolute;
+  top: 10px; 
+  left: 100%;
+  /* transform: translateX(-50%); */
+  background-color: rgba(50, 50, 50, 0.5); 
+  border-radius: 20px; 
+  border: 1px solid white; 
+  padding: 5px; 
+  z-index: 1000; 
+  display: flex; 
+  align-items: center; 
+  /* width: 400px; */
+  margin-top: 0px;
+}
+
+
+.leaflet-container .leaflet-control-search input {
+  background: transparent;
+  border: none; 
+  color: white;
+  padding: 5px; 
+  font-size: 14px;
+  outline: none; 
+  width: 250px; 
+}
+
+.leaflet-container .leaflet-control-search input::placeholder {
+  color: lightgrey; 
+  font-style: italic; 
+}
+
+.leaflet-container .leaflet-control-search .search-button {
+  background-color: white; 
+  border: none; 
+  border-radius: 50%; 
+  padding: 5px; 
+  width: 18px; 
+  height: 18px; 
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  cursor: pointer; 
+}
+
+
+.leaflet-container .leaflet-control-search .search-button:hover {
+  background-color: #ddd; 
+}
+
+.leaflet-container .leaflet-control-search input:focus {
+  outline: none; 
+  border-bottom: 2px solid lightgray; 
+}
+
+.leaflet-container .leaflet-control-search .search-cancel {
+  padding-left: 2%;
+}
+
+.leaflet-container ul {
+  margin-top: 1px;
+}

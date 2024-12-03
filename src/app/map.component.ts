@@ -59,7 +59,7 @@ export class MapComponent implements OnInit {
       // }).addTo(this.map)
       const searchControl = new (L.Control as any).Search({
         layer: markers,
-        propertyName: 'title', // Search by title
+        propertyName: 'title',
         zoom: 15,
         textPlaceholder: 'Search weather stations...'
       });

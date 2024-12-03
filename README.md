@@ -25,7 +25,8 @@ Search and marker on Submit :
 
 ## Dynamic Data Display for Daily Energy Generated (Line Graph):
 
-![Screenshot 2024-12-03 at 6 19 21 PM](https://github.com/user-attachments/assets/14fa307c-e85a-437e-aac7-7170a4871f18)
+![Screenshot 2024-12-03 at 6 25 56 PM](https://github.com/user-attachments/assets/0485c952-68eb-4aec-b10a-1c70c28af412)
+
 
 
 ## Additional Resources

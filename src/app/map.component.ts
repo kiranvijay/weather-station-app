@@ -83,6 +83,7 @@ export class MapComponent implements OnInit {
 
     // Chart Creation
     const ctx = document.getElementById('chartCanvas') as HTMLCanvasElement;
+
     this.chart = new Chart(ctx, {
       type: 'line',
       data: {
@@ -92,7 +93,18 @@ export class MapComponent implements OnInit {
             label: 'Daily Energy Generated (KWh)',
             data: maxTemps,
             borderColor: 'rgba(53, 244, 214, 0.8)',
-            backgroundColor: 'rgba(51, 109, 100, 0.8)',
+            backgroundColor: (context) => {
+              if (!context.chart.chartArea) {
+                return;
+              }
+              const { chartArea: { top, bottom }, ctx } = context.chart;
+              //gradient
+              const gradientBgContext= ctx.createLinearGradient(0, top, 0, bottom);
+              gradientBgContext.addColorStop(0, 'rgba(0, 255, 255, 0.6)');
+              gradientBgContext.addColorStop(0.5, 'rgba(0, 128, 192, 0.4)');
+              gradientBgContext.addColorStop(1, 'rgba(0, 0, 0, 0.3)');
+              return gradientBgContext;
+            },
             fill: true,
             tension: 0.4,
           },

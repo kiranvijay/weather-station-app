@@ -89,7 +89,7 @@ export class MapComponent implements OnInit {
         labels: labels,
         datasets: [
           {
-            label: 'Daily Enery Generated (KWh)',
+            label: 'Daily Energy Generated (KWh)',
             data: maxTemps,
             borderColor: 'rgba(53, 244, 214, 0.8)',
             backgroundColor: 'rgba(51, 109, 100, 0.8)',

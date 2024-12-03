@@ -93,6 +93,7 @@ export class MapComponent implements OnInit {
             label: 'Daily Energy Generated (KWh)',
             data: maxTemps,
             borderColor: 'rgba(53, 244, 214, 0.8)',
+            borderWidth:1,
             backgroundColor: (context) => {
               if (!context.chart.chartArea) {
                 return;

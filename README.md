@@ -16,16 +16,19 @@ Once the server is running, open your browser and navigate to `http://localhost:
 
 🔍 Search Weather Stations:
 Type a location or station name to zoom in on the corresponding weather station.
-![Screenshot 2024-12-03 at 6 16 48 PM](https://github.com/user-attachments/assets/5750a4b5-50f7-4c1d-a70f-026783dc96de)
+<img width="666" alt="Screenshot 2024-12-04 at 10 44 18 AM" src="https://github.com/user-attachments/assets/e04e7373-433f-44a3-a04f-e179f1c7c423">
+
 
 Search and panning to marker on Submit :
-![Screenshot 2024-12-03 at 6 22 02 PM](https://github.com/user-attachments/assets/77573dc9-27f2-49f8-b4d2-567dab8d5eb7)
+
+<img width="892" alt="Screenshot 2024-12-04 at 10 44 29 AM" src="https://github.com/user-attachments/assets/f7c085e6-a2c3-446d-b152-58a3e8a0a872">
 
 
 
 ## Dynamic Data Display for Daily Energy Generated (Line Graph):
 
-<img width="546" alt="Screenshot 2024-12-03 at 9 10 12 PM" src="https://github.com/user-attachments/assets/328d6f97-391f-4e78-a18b-5ffa45ae69ea">
+<img width="564" alt="Screenshot 2024-12-04 at 10 44 40 AM" src="https://github.com/user-attachments/assets/7841e4cf-6fd7-4783-bffb-02a765cab0a2">
+
 
 ## Additional Resources
 

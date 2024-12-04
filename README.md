@@ -17,6 +17,7 @@ Once the server is running, open your browser and navigate to `http://localhost:
 🔍 Search Weather Stations:
 Type a location or station name to zoom in on the corresponding weather station.
 <img width="790" alt="Screenshot 2024-12-04 at 12 24 27 PM" src="https://github.com/user-attachments/assets/f7ce2752-3900-453a-beb3-942fe4fdd3c5">
+<img width="682" alt="Screenshot 2024-12-04 at 12 27 00 PM" src="https://github.com/user-attachments/assets/31b5167a-e889-4f7c-80da-0ad545e38528">
 
 <img width="666" alt="Screenshot 2024-12-04 at 10 44 18 AM" src="https://github.com/user-attachments/assets/e04e7373-433f-44a3-a04f-e179f1c7c423">
 

@@ -1,5 +1,12 @@
 # WeatherStationApp
 
+## Tech Stack :
+Libraries and Frameworks
+Leaflet: A lightweight JavaScript library for interactive maps.
+Chart.js: A flexible JavaScript charting library for visualizing data.
+
+Nunito: A clean and modern font used for the application's user interface.
+
 ## Application is live at :
 
 https://kiranvijay.github.io/weather-station-app/

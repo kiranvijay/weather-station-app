@@ -34,7 +34,9 @@ export class MapComponent implements OnInit {
 
     L.Marker.prototype.options.icon = defaultIcon;
     this.map = L.map('map').setView([1.29, 103.85], 12);
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(this.map);
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+      attribution: 'Tiles &copy; Esri &mdash; Source: Esri, Maxar, Earthstar Geographics, and the GIS User Community',
+    }).addTo(this.map);
   }
 
 

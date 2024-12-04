@@ -2,14 +2,6 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.2.
 
-## Development server
-
-To start a local development server, run:
-
-```bash
-ng serve
-```
-
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
 ## Application is live at :
@@ -38,6 +30,13 @@ Search and panning to marker on Submit :
 
 <img width="564" alt="Screenshot 2024-12-04 at 10 44 40 AM" src="https://github.com/user-attachments/assets/7841e4cf-6fd7-4783-bffb-02a765cab0a2">
 
+## Development server (local)
+
+To start a local development server, run:
+
+```bash
+ng serve
+```
 
 ## Additional Resources
 

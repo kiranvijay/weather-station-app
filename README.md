@@ -28,6 +28,8 @@ Search and panning to marker on Submit :
 
 <img width="892" alt="Screenshot 2024-12-04 at 10 44 29 AM" src="https://github.com/user-attachments/assets/f7c085e6-a2c3-446d-b152-58a3e8a0a872">
   
+Pop up on click of the markers :
+<img width="290" alt="Screenshot 2024-12-05 at 10 57 06 PM" src="https://github.com/user-attachments/assets/8cb0cd88-10dd-4805-a038-1f77bd33679e">
 
 
 ## Dynamic Data Display for Daily Energy Generated (Line Graph):

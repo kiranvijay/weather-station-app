@@ -22,8 +22,9 @@ Type a location or station name to zoom in on the corresponding weather station.
 
 <img width="666" alt="Screenshot 2024-12-04 at 10 44 18 AM" src="https://github.com/user-attachments/assets/e04e7373-433f-44a3-a04f-e179f1c7c423">
 
-Pop up on click of the markers :
-<img width="290" alt="Screenshot 2024-12-05 at 10 57 06 PM" src="https://github.com/user-attachments/assets/8cb0cd88-10dd-4805-a038-1f77bd33679e">
+Forcast Info :
+
+<img width="616" alt="Screenshot 2024-12-05 at 11 00 43 PM" src="https://github.com/user-attachments/assets/a4c5e56e-b486-42d3-aea4-32f86db2f6b9">
 
 Search and panning to marker on Submit :
 <img width="952" alt="Screenshot 2024-12-04 at 12 24 40 PM" src="https://github.com/user-attachments/assets/e895fdfd-5de3-45bf-bca2-0b9e4a643b25">

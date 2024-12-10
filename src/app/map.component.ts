@@ -3,6 +3,8 @@ import * as L from 'leaflet';
 import { WeatherService } from './services/weather.service';
 import 'leaflet-search';
 import { Chart } from 'chart.js/auto';
+import {chart_options } from '../app/chart-options';
+
 @Component({
   selector: 'app-root',
   templateUrl: './map.component.html',
@@ -16,7 +18,6 @@ export class MapComponent implements OnInit {
   ngOnInit(): void {
 
     this.initMap();
-
     this.loadWeatherStations();
 
   }
@@ -34,9 +35,7 @@ export class MapComponent implements OnInit {
 
     L.Marker.prototype.options.icon = defaultIcon;
     this.map = L.map('map').setView([1.29, 103.85], 12);
-    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-      attribution: 'Tiles &copy; Esri &mdash; Source: Esri, Maxar, Earthstar Geographics, and the GIS User Community',
-    }).addTo(this.map);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(this.map);
   }
 
 
@@ -113,52 +112,7 @@ export class MapComponent implements OnInit {
           },
         ],
       },
-      options: {
-        responsive: true,
-        plugins: {
-          legend: {
-            position: 'top',
-            labels: {
-              color: 'white',
-              font: {
-                size: 18,
-                family: 'Nunito'
-              }
-            },
-          },
-
-
-        },
-
-        scales: {
-          x: {
-            title: {
-              display: true,
-              color: 'white',
-            },
-
-            ticks: {
-              color: 'white',
-            },
-            grid: {
-              color: 'rgba(255, 255, 255, 0.2)',
-            },
-          },
-          y: {
-            title: {
-              display: true,
-              color: 'white',
-            },
-            ticks: {
-              color: 'white',
-            },
-            grid: {
-              color: 'rgba(255, 255, 255, 0.2)',
-            },
-            beginAtZero: false,
-          },
-        },
-      },
+      options: chart_options,
     });
 
 
